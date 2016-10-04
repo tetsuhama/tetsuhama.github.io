@@ -1,0 +1,160 @@
+html {
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    font-size: 18px;
+    color: #555555;
+}
+header {
+    background: #FFBF25;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 1.5rem;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+main a {
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+}
+.logo a:hover {
+    opacity: 0.8;
+}
+.feature {
+    padding: 3rem;
+}
+h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 2rem 0 2rem;
+    padding: 0 2rem;
+}
+h2 {
+    font-weight: normal;
+    margin: 0;
+}
+h3 {
+    font-weight: normal;
+}
+article {
+    color: #777;
+    margin-bottom: 4rem;
+}
+article p {
+    margin: 1rem;
+}
+footer {
+    padding: 2rem 4rem 0;
+    color: #ddd;
+    background: #4D5250;
+    font-family: arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', helvetica, sans-serif;
+}
+footer p {
+    font-size: 0.8rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0.5rem;
+}
+footer a {
+    text-decoration: none;
+    color: #ddd;
+    margin: 2rem;
+}
+footer section {
+    display: flex;
+    justify-content: space-around;
+}
+.label {
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+.icon {
+    width: 20rem;
+    height: 20rem;
+}
+.btn {
+    padding: 0.5rem 2rem;
+    text-align: center;
+    color: #FFBF25;
+    border: solid 1px #FFBF25;
+    border-radius: 0.5rem;
+    background: #fff;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 3rem 6rem;
+}
+.links .btn {
+    width: 8rem;
+}
+.images {
+    padding: 0 1rem;
+    margin: 6rem 0;
+    display: flex;
+    overflow-y: auto;
+}
+img {
+    flex-shrink: 0;
+    width: auto;
+    max-height: 30rem;
+}
+.trimming img {
+    width: auto;
+    max-height: 30rem;
+}
+.trimming {
+    width: auto;
+    max-height: 27.3rem;
+    overflow: hidden;
+}
+.gray_link {
+    color: #aaa;
+    text-decoration: underline;
+}
+.beige {
+    background: #FFF8E9;
+}
+.review {
+    color: #777;
+}
+.review:hover {
+    cursor: text;
+}
+a.review {
+    pointer-events: none;
+}
+.usage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+.usage p {
+    width: 30rem;
+}
+.usage ul {
+    width: 30rem;
+}
+.reverse {
+    flex-direction: row-reverse;
+}

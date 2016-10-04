@@ -1,0 +1,148 @@
+html {
+    font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', arial, helvetica, sans-serif;
+    font-size: 42px;
+    color: #555555;
+}
+header {
+    background: #FFBF25;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header a {
+    text-decoration: none;
+    color: #555555;
+    font-size: 1.5rem;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+main a {
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+}
+.feature {
+    padding: 2rem;
+}
+h1 {
+    font-weight: normal;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    padding: 0 2rem;
+}
+h2 {
+    font-weight: normal;
+    margin: 0;
+    font-size: 1.8rem;
+}
+h3 {
+    font-weight: normal;
+}
+p {
+    font-size: 1.2rem;
+}
+article {
+    font-size: 0.8rem;
+    color: #777;
+    margin-bottom: 4rem;
+}
+article p {
+    margin: 1rem;
+}
+footer {
+    padding: 2rem 2rem 0;
+    color: #ddd;
+    background: #4D5250;
+    font-family: arial, 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, Osaka, 'MS PGothic', helvetica, sans-serif;
+}
+footer p {
+    font-size: 1rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 0;
+    padding: 0.5rem;
+}
+footer a {
+    text-decoration: none;
+    color: #ddd;
+    margin: 1rem;
+}
+footer section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.icon {
+    width: 15rem;
+    height: 15rem;
+}
+.label {
+    font-size: 3rem;
+    margin-bottom: 6rem;
+}
+.btn {
+    padding: 0.8rem 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #FFBF25;
+    border: solid 2px #FFBF25;
+    border-radius: 0.8rem;
+    background: #fff;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 2rem;
+}
+.links .btn {
+    width: 10rem;
+    margin: 2rem 0;
+}
+.images {
+    padding: 0 1rem;
+    margin: 6rem 0;
+    display: flex;
+    overflow-y: auto;
+}
+img {
+    flex-shrink: 0;
+    width: auto;
+    max-height: 30rem;
+}
+.trimming img {
+    width: auto;
+    max-height: 30rem;
+}
+.trimming {
+    width: auto;
+    max-height: 24.6rem;
+    overflow: hidden;
+}
+.gray_link {
+    color: #aaa;
+    text-decoration: underline;
+}
+.beige {
+    background: #FFF8E9;
+}
+.review {
+    color: #FBC02D;
+    text-decoration: underline;
+}
+li {
+    font-size: 1.2rem;
+}
